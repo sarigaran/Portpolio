@@ -1,5 +1,6 @@
 {
-  "homepage": "https://github.com/sarigaran/Portpolio.git",
+  "homepage": "https://sarigaran.github.io/Portpolio",
+
   "name": "portpolio",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.15"
   },
@@ -36,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
