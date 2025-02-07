@@ -1,16 +1,27 @@
-import React from 'react'
-import logo from "../../images/image.jpg"
 
-function Dasboard() {
-  return (
-    <div style={{display:"flex" ,alignItems:"center"}}>
-        <div style={{width:"50%"}}><img src={logo} alt='image' style={{border:"2px solid black",backgroundColor:"black",borderRadius:"50%"}}/></div>
-        <div style={{width:"50%",fontSize:"20px",fontWeight:"bold"}}>Software Developer with 2 years of experience, dedicated and hardworking in both project execution and task
-management. Skilled at motivating team members and fostering collaboration. An enthusiastic and keen learner
-of new technologies, seeking a project to further enhance skills and knowledge</div>
-     
-    </div>
-  )
-}
+// import React, { useRef } from "react";
+// import Home from "./home";
+// import About from "./about";
 
-export default Dasboard
+// function Dashboard() {
+//   const aboutRef = useRef(null);
+
+//   const scrollToAbout = () => {
+//     aboutRef.current.scrollIntoView({ behavior: "smooth" });
+//   };
+
+//   return (
+//     <div>
+//       <button onClick={scrollToAbout}>About</button>
+
+//       <Home />
+
+//       <div ref={aboutRef}>
+//         <About />
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Dashboard;
+

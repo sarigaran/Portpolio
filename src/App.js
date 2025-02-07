@@ -3,8 +3,6 @@ import Applayout from './components/layout';
 
 function App() {
   return (
-
-    
     <div className="App">
       <Router basename="/Portpolio">
       <Routes>

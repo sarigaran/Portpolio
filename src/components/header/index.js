@@ -1,14 +1,16 @@
 import React from "react";
 import { ButtonWrap, StyleButton } from "./style";
 
-function AppHeader() {
+function AppHeader({scrollToSection}) {
+ 
   return (
     <div
       style={{
         display: "flex",
         width: "100%",
         alignItems: "center",
-        height: "65px",
+       position:"sticky",
+       top:0,
         backgroundColor: "black",
       }}
     >
@@ -28,9 +30,9 @@ function AppHeader() {
         </p>
       </div>
       <ButtonWrap>
-        <StyleButton>Home</StyleButton>
-        <StyleButton>About</StyleButton>
-        <StyleButton>Service</StyleButton>
+        <StyleButton onClick={() => scrollToSection("home")}>Home</StyleButton>
+        <StyleButton onClick={() => scrollToSection("skills")}>Skills</StyleButton>
+        <StyleButton onClick={() => scrollToSection("contact")}>Contact</StyleButton>
       </ButtonWrap>
     </div>
   );
