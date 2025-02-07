@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sarigaran/Portpolio.git/static/css/main.964fdded.css",
-    "main.js": "/sarigaran/Portpolio.git/static/js/main.ad379f90.js",
-    "index.html": "/sarigaran/Portpolio.git/index.html",
-    "main.964fdded.css.map": "/sarigaran/Portpolio.git/static/css/main.964fdded.css.map",
-    "main.ad379f90.js.map": "/sarigaran/Portpolio.git/static/js/main.ad379f90.js.map"
+    "main.css": "/Portpolio/static/css/main.964fdded.css",
+    "main.js": "/Portpolio/static/js/main.3286d77e.js",
+    "index.html": "/Portpolio/index.html",
+    "main.964fdded.css.map": "/Portpolio/static/css/main.964fdded.css.map",
+    "main.3286d77e.js.map": "/Portpolio/static/js/main.3286d77e.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.ad379f90.js"
+    "static/js/main.3286d77e.js"
   ]
 }
