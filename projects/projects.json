@@ -1,0 +1,27 @@
+[
+  {
+    "name": "VetNvet",
+    "desc": "VetNvet is a cloud-based model web and mobile applications for Doctors, managing patient records and enabling reminders",
+    "image": "vetnvet"
+   
+  },
+  {
+    "name": "AXON-Patient Portal",
+    "desc": "This project involves justification and patient reports with a mobile app and web portal integration for notifications",
+    "image": "axon"
+    
+  },
+  {
+    "name": "Active Directory Web",
+    "desc": "A web-based Active Directory management system enabling admin functions without server login",
+    "image": "adweb"
+   
+  },
+  {
+    "name": "Lead Handler",
+    "desc": "Tool to manage leads integrated with Active Directory for user access management",
+    "image": "lead"
+   
+  }
+
+]
